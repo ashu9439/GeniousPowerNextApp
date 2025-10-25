@@ -5,8 +5,10 @@ const nextConfig: NextConfig = {
    images: {
     domains: [
       'images.unsplash.com',
-      'plus.unsplash.com', // Add this
-      'via.placeholder.com', // optional: for placeholder images
+      'plus.unsplash.com',
+      'res.cloudinary.com',
+      'via.placeholder.com',
+      'www.example.com', 
     ],
   },
 };

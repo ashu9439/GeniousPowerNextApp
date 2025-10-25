@@ -69,9 +69,12 @@ export default function Home() {
                 <div className="text-lg font-bold">
                   {p.currency ?? "USD"} {p.price?.toFixed(2)}
                 </div>
-                <button className="text-sm px-3 py-1 border rounded">
+                {/* <button className="text-sm px-3 py-1 border rounded">
                   View
-                </button>
+                </button> */}
+              </div>
+              <div className="mt-2 text-sm text-gray-700">
+                {p.description}
               </div>
             </div>
           </article>
