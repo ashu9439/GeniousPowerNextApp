@@ -63,19 +63,20 @@ export default function Home() {
               </div>
             )}
             <div className="p-4">
-              <h3 className="font-semibold text-lg">{p.name}</h3>
+              <h3 className="font-semibold text-lg  text-blue-800 ">{p.name}</h3>
               <p className="text-sm text-gray-500">{p.category}</p>
-              <div className="mt-3 flex items-center justify-between">
-                <div className="text-lg font-bold">
-                  {p.currency ?? "USD"} {p.price?.toFixed(2)}
-                </div>
-                {/* <button className="text-sm px-3 py-1 border rounded">
+              {p.price && (
+                <div className="mt-3 flex items-center justify-between">
+                  <div className="text-lg font-bold">
+                    {p.currency ?? "INR"} {p.price}
+                  </div>
+                  {/* <button className="text-sm px-3 py-1 border rounded">
                   View
                 </button> */}
-              </div>
-              <div className="mt-2 text-sm text-gray-700">
-                {p.description}
-              </div>
+                </div>
+              )}
+              
+              <div className="mt-2 text-sm text-gray-700">{p.description}</div>
             </div>
           </article>
         ))}

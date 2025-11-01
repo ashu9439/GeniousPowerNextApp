@@ -14,10 +14,10 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto flex items-center justify-between px-6 py-3">
         {/* Logo */}
         <Image
-          src="/logo.jpg"
+          src="/gpwlogo.jpg"
           alt="GeniusPower Logo"
           width={100}
-          height={24}
+          height={100}
           className="h-6 w-auto"
         />
 
