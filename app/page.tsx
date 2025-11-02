@@ -37,10 +37,10 @@ export default function HomePage() {
           />
         </div>
 
-        <h1 className="text-5xl sm:text-4xl font-bold mb-2 text-yellow-400 drop-shadow-lg">
+        <h1 className="test-xl md:text-5xl sm:text-4xl font-bold mb-2 text-yellow-400 drop-shadow-lg">
           Welcome to Genious Power
         </h1>
-        <p className="text-lg sm:text-xl text-gray-200">
+        <p className="text-lg md:text-xl text-gray-200">
           Empowering Industries with Reliable Electrical Solutions — Trusted by
           India’s Leading Enterprises.
         </p>
@@ -69,6 +69,24 @@ export default function HomePage() {
           <div className="relative overflow-hidden">
             <div className="flex animate-marquee will-change-transform gap-4 ">
               <div className="flex gap-4 items-stretch">
+                <div className="card">
+                  <Image
+                    src="/partner/utkal.jpg"
+                    alt="BWCCL Logo"
+                    width={150}
+                    height={80}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="card">
+                  <Image
+                    src="/partner/immt.png"
+                    alt="BWCCL Logo"
+                    width={150}
+                    height={80}
+                    className="object-contain"
+                  />
+                </div>
                 <div className="card">
                   <Image
                     src="/partner/hit.png"
@@ -172,6 +190,24 @@ export default function HomePage() {
 
               {/* duplicate set for seamless looping */}
               <div className="flex gap-4 items-stretch" aria-hidden="true">
+                <div className="card">
+                  <Image
+                    src="/partner/utkal.jpg"
+                    alt="BWCCL Logo"
+                    width={150}
+                    height={80}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="card">
+                  <Image
+                    src="/partner/immt.png"
+                    alt="BWCCL Logo"
+                    width={150}
+                    height={80}
+                    className="object-contain"
+                  />
+                </div>
                 <div className="card">
                   <Image
                     src="/partner/hit.png"
