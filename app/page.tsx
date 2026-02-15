@@ -71,6 +71,15 @@ export default function HomePage() {
               <div className="flex gap-4 items-stretch">
                 <div className="card">
                   <Image
+                    src="/partner/aaid.jpg"
+                    alt="aaid Logo"
+                    width={150}
+                    height={80}
+                    className="object-contain"
+                  />
+                </div>
+                <div className="card">
+                  <Image
                     src="/partner/utkal.jpg"
                     alt="BWCCL Logo"
                     width={150}
@@ -190,6 +199,15 @@ export default function HomePage() {
 
               {/* duplicate set for seamless looping */}
               <div className="flex gap-4 items-stretch" aria-hidden="true">
+                <div className="card">
+                  <Image
+                    src="/partner/aaid.jpg"
+                    alt="aaid Logo"
+                    width={150}
+                    height={80}
+                    className="object-contain"
+                  />
+                </div>
                 <div className="card">
                   <Image
                     src="/partner/utkal.jpg"

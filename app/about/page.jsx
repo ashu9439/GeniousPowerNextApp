@@ -44,6 +44,16 @@ export default function AboutPage() {
         </div>
       </div>
 
+      <section className="py-16 mx-auto">
+        <Image
+              src="/iso.jpeg"
+              alt="iso certification"
+              width={992}
+              height={1402}
+              className="object-contain"
+            />
+      </section>
+
       {/* Vision & Mission */}
       <section className="py-16 px-4 sm:px-6 lg:px-8 ">
         <div className="max-w-4xl mx-auto space-y-12 glass-card">
